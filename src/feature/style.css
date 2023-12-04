@@ -1,0 +1,103 @@
+.todoList {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.todoList .left {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+}
+
+.todoList .left .filter {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.todoList .left .filter > span {
+    margin-right: 10px;
+}
+.todoList .left .filter > select{
+    height: 30px;
+    border: none;
+}
+
+.todo-item-creator {
+    display: flex;
+    margin-top: 20px;
+}
+
+.todo-item-creator > input {
+    flex: 1 1 auto;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+    color: #ccc;
+}
+
+.todo-item-creator > button {
+    flex: 0 0 auto;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ 
+.todo-list-item {
+    border-bottom: 1px dashed #ccc;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 3px;
+    box-sizing: border-box;
+}
+
+.todo-list-item .check-box {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-list-item .input {
+    flex: 1 1 auto;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.todo-list-item .input:focus {
+    border: 1px dashed #ccc;
+}
+
+.todo-list-item > button {
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.todoList .right {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.todoList .right ul {
+    list-style: none;
+    padding-top: 100px;
+}
